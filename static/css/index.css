@@ -101,6 +101,7 @@ nav{
 	
 }
 
+.wrap.fixed { position: fixed; }
 
 /* categories list */
 .categories-list-header {
