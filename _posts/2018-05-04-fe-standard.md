@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "JavaScript 作用域和作用域链"
+date:   2018年5月4日17:53:33
+categories: Front-end JavaScript
+excerpt: 前端规范。
+---
+
+* content
+{:toc}
+
 # 前端规范
 ## 一、HTML规范
 ### 1.每个HTML标签一行
