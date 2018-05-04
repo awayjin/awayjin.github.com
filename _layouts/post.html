@@ -27,12 +27,33 @@ layout: default
 
   <div id="content" class="col-sm-3">
     <!-- <div id="myAffix" class="shadow-bottom-center hidden-xs" data-spy="affix" data-offset-top="0" data-offset-bottom="-20"> -->
-    <div id="myAffix" class="shadow-bottom-center hidden-xs" >
+   <!-- <div id="myAffix" class="shadow-bottom-center hidden-xs" >
       <div class="categories-list-header">
         Content
       </div>
       <div class="content-text"></div>
+    </div>-->
+
+    <div class="right">
+      <div class="wrap">
+
+        <!-- Content -->
+        <div class="side content">
+          <div>
+            Content
+          </div>
+          <ul id="content-side" class="content-ul">
+            {% if hasSimilar.size > 0 %}
+            <li><a href="#similar_posts">Similar Posts</a></li>
+            {% endif %}
+            <li><a href="#comments">Comments</a></li>
+          </ul>
+        </div>
+        <!-- 其他div框放到这里 -->
+        <!-- <div class="side">bbbb</div> -->
+      </div>
     </div>
+
   </div>
 </div>
 
@@ -47,8 +68,7 @@ layout: default
   (function() {
     if (window.innerWidth > 770) {
 
-//      var sidebarWrap = document.querySelector('.right>.wrap')
-      var sidebarWrap = document.querySelector('#myAffix')
+      var sidebarWrap = document.querySelector('.right>.wrap')
 
       //fix 之后百分比宽度会失效，这里用js赋予宽度
       sidebarWrap.style.width = sidebarWrap.offsetWidth + "px"

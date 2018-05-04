@@ -26,7 +26,7 @@ icon: glyphicon-heart
 ---
 
 #### 友情链接
->codegoing.com
+> //www.codegoing.com
 
 
 
