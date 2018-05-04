@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FE前端规范"
-date:   2018年5月4日17:53:33
+date:   2018-05-04 17:53:33
 categories: Front-end JavaScript
 excerpt: 前端规范,自己团队所需，团队总结
 ---
