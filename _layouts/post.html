@@ -34,25 +34,27 @@ layout: default
       <div class="content-text"></div>
     </div>-->
 
-    <div class="right shadow-bottom-center hidden-xs">
+    <div class="right">
       <div class="wrap">
+        <div class="shadow-bottom-center hidden-xs">
+          <!-- Content -->
+          <div class="side content">
+            <div class="categories-list-header">
+              Content
+            </div>
+            <div class="content-text">
+              <ul id="content-side" class="content-ul">
+                {% if hasSimilar.size > 0 %}
+                <li><a href="#similar_posts">Similar Posts</a></li>
+                {% endif %}
+                <li><a href="#comments">Comments</a></li>
+              </ul>
+            </div>
 
-        <!-- Content -->
-        <div class="side content">
-          <div class="categories-list-header">
-            Content
           </div>
-          <div class="content-text">
-            <ul id="content-side" class="content-ul">
-              {% if hasSimilar.size > 0 %}
-              <li><a href="#similar_posts">Similar Posts</a></li>
-              {% endif %}
-              <li><a href="#comments">Comments</a></li>
-            </ul>
-          </div>
-
+          <!-- 其他div框放到这里 -->
         </div>
-        <!-- 其他div框放到这里 -->
+
         <!-- <div class="side">bbbb</div> -->
       </div>
     </div>
@@ -74,7 +76,7 @@ layout: default
       var sidebarWrap = document.querySelector('.right>.wrap')
 
       //fix 之后百分比宽度会失效，这里用js赋予宽度
-      sidebarWrap.style.width = sidebarWrap.offsetWidth + "px"
+//      sidebarWrap.style.width = sidebarWrap.offsetWidth + "px"
       window.onscroll = function() {
 
         // 页面顶部滚进去的距离
