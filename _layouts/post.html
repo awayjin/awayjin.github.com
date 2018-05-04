@@ -34,20 +34,23 @@ layout: default
       <div class="content-text"></div>
     </div>-->
 
-    <div class="right">
+    <div class="right shadow-bottom-center hidden-xs">
       <div class="wrap">
 
         <!-- Content -->
         <div class="side content">
-          <div>
+          <div class="categories-list-header">
             Content
           </div>
-          <ul id="content-side" class="content-ul">
-            {% if hasSimilar.size > 0 %}
-            <li><a href="#similar_posts">Similar Posts</a></li>
-            {% endif %}
-            <li><a href="#comments">Comments</a></li>
-          </ul>
+          <div class="content-text">
+            <ul id="content-side" class="content-ul">
+              {% if hasSimilar.size > 0 %}
+              <li><a href="#similar_posts">Similar Posts</a></li>
+              {% endif %}
+              <li><a href="#comments">Comments</a></li>
+            </ul>
+          </div>
+
         </div>
         <!-- 其他div框放到这里 -->
         <!-- <div class="side">bbbb</div> -->

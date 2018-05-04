@@ -13,7 +13,7 @@ icon: glyphicon-heart
 
 ### 联系我
 
-* email：[258246377@qq.com.com](mailto:{{ site.email }})
+* email：[258246377@qq.com](mailto:{{ site.email }})
 * QQ：258246377
 
 ---
