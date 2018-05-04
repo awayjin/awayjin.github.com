@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "前端规范"
+title:  "FE前端规范"
 date:   2018年5月4日17:53:33
 categories: Front-end JavaScript
-excerpt: 前端规范。
+excerpt: 前端规范,自己团队所需，团队总结
 ---
 
 * content
 {:toc}
+
+---
 
 # 前端规范
 ## 一、HTML规范
@@ -33,4 +35,6 @@ excerpt: 前端规范。
 
 ## 三、JavaScript规范
 ### 后续补上
+
+---
 
