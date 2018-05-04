@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript 作用域和作用域链"
+title:  "前端规范"
 date:   2018年5月4日17:53:33
 categories: Front-end JavaScript
 excerpt: 前端规范。
