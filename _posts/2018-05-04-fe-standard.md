@@ -29,9 +29,14 @@ excerpt: 前端规范,自己团队所需，团队总结
     {{ generalData.differenceYear }}
    </template>
 ```
-
+```html
+   <template v-if="fetData.demo !== null && generalData.differenceYear">
+    {{ generalData.differenceYear }}
+   </template>
+```
 ## 二、CSS\LESS规范
 ### 后续补上
+
 
 ## 三、JavaScript规范
 ### 后续补上
